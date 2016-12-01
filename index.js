@@ -29,8 +29,8 @@ module.exports = class Sounds {
         if (!this.player) return false;
         try {
         var a = child.spawn(this.player, [dir], {
-            cwd: this.cwd
- 
+            cwd: this.cwd,
+            PATH: process.env.PATH
         })
 a.on('error',function() {
     
