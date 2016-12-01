@@ -1,0 +1,19 @@
+{
+  "name": "nodesounds",
+  "version": "1.0.0",
+  "description": "Play sounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJS-development/NodeSounds.git"
+  },
+  "author": "Andrews54757",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJS-development/NodeSounds/issues"
+  },
+  "homepage": "https://github.com/AJS-development/NodeSounds#readme"
+}
