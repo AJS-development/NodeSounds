@@ -27,11 +27,17 @@ module.exports = class Sounds {
     }
     _play(dir) {
         if (!this.player) return false;
+        try {
         var a = child.spawn(this.player, [dir], {
             cwd: this.cwd
+ 
         })
-
-
+a.on('error',function() {
+    
+})
+        } catch (e) {
+            
+        }
         return true;
     }
     add(name, dir) {
