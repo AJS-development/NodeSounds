@@ -1,2 +1,2 @@
-# SoundsJS
+# NodeSounds
 Plays sound.
