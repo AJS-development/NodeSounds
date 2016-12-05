@@ -13,7 +13,7 @@ module.exports = class Sounds {
     getPlayer() {
         switch (this.platform) {
         case "win32":
-            this.player = "start"
+            this.player = false;
             break;
         case "darwin":
             this.player = "afplay";
